@@ -1,0 +1,519 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+@media only screen and (max-width : 1025px) {
+.licenze p {
+    font-size: 1vw;
+}
+.left-player {
+    width: 70%;
+    left: -12%;
+    bottom: 0;
+}
+
+.right-player {
+    width: 70%;
+    right: -17.2%;
+}
+.section-intro2 {
+    padding-top: 17%;
+}
+.hand {
+    left: 7%;
+}
+.date-info {
+    top: 35%;
+}
+
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.nav-bar {
+		display: none;
+	}
+	#fp-nav {
+		top: 50%;
+		left: 5px !important;
+	}
+.wrapper {
+	width: 100%;
+	height: 100%;
+	background: url(../img/mob-light.png) no-repeat center center;
+	background-size: cover;
+	position: relative;
+	z-index: 99999;
+}
+.section-intro1 {
+    padding-top: 16%;
+}
+.section-intro1 p {
+    line-height: 1em;
+    font-size: 7vw;
+    width: 69%;
+    margin: 0 auto 20px;
+}
+.section-intro1 span {
+    font-size: 4vw;
+}
+.raif-logo {
+    width: 40%;
+    left: 20px;
+    top: 20px;
+}
+.faq {
+    display: none;
+}
+.faq span {
+    font-size: 16px;
+}
+
+.sponsor {
+	display: none;
+}
+.iihf-logo {
+	right: 20px;
+	bottom: 20px;
+	    width: 11%;
+    height: 12%;
+}
+.left-player {
+    width: 65%;
+    left: -8.7%;
+    bottom: 10%;
+}
+.right-player {
+    width: 65%;
+    right: -7.8%;
+    bottom: 10%;
+}
+.licenze p {
+    font-size: 12px;
+    text-align: center;
+}
+.dark-scroll {
+	bottom: 40px;
+}
+.licenze {
+	width: 100%;
+	bottom: 20px;
+	left: 0;
+	display: none;
+}
+.phone {
+    width: 54%;
+    height: 43%;
+    right: -14%;
+    bottom: -4%;
+}
+.shaiba {
+    width: 61.5%;
+    height: 57%;
+    bottom: 35px;
+}
+.skates {
+	width: 46%;
+    height: 56%;
+}
+.glove {
+	width: 45%;
+    height: 38%;
+}
+.date-info {
+	font-size: 4vw;
+	left: 12%;
+    top: 28%;
+}
+.section-intro2 span {
+    font-size: 3vw;
+}
+.section-intro2 p {
+    font-size: 4.5vw;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.section-intro2 {
+    padding-top: 27%;
+}
+.toggle-menu {
+	display: block;
+}
+.hand {
+    height: 90%;
+}
+.faq-wrap {
+	width: 100%;
+	min-height: 100%;
+	margin-bottom: 0;
+	margin-left: 0;
+	margin-right: 0;
+	left: 0;
+	top: 0;
+	right: 0;
+	padding: 23px 0;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+}
+.faq-shadow {
+	overflow-x: hidden;
+    overflow-y: auto;
+    padding-bottom: 0;
+}
+.faq-logo-wrap {
+	display: none;
+}
+.mob-faq-logo-wrap {
+	display: block;
+}
+.faq-descr {
+	padding-left: 20px;
+	width: 100%;
+}
+.faq-descr p {
+	font-size: 16px;
+	font-family: 'Conv_FuturaDemiC';
+	font-weight: bold
+}
+.faq-descr span {
+	font-size: 14px;
+	font-family: 'Conv_FuturaLight';
+	font-weight: bold
+}
+.close-faq {
+	width: 16px;
+	height: 16px;
+	top: 25px;
+}
+.light-slide-3 {
+    display: none;
+}
+.rules {
+    display: none;
+}
+.new-row {
+    padding-left: 0px;
+}
+
+}
+
+@media only screen and (max-width : 736px) {
+.section-intro1 p {
+    line-height: 22px;
+    font-size: 22px;
+    width: 69%;
+    margin: 0 auto 20px;
+}
+.section-intro1 span {
+    font-size: 15px;
+}
+.section-intro2 p {
+    line-height: 22px;
+    font-size: 20px;
+    margin: 0 auto 20px;
+}
+.section-intro2 span {
+    font-size: 15px;
+    width: 80%;
+    margin: 0 auto;
+}
+.date-info {
+	font-size: 14px;
+	top: 24%;
+}
+#fp-nav ul li, .fp-slidesNav ul li {
+    width: 10px;
+    height: 10px;
+}
+#fp-nav ul li a.active span, #fp-nav ul li:hover a.active span, .fp-slidesNav ul li a.active span, .fp-slidesNav ul li:hover a.active span {
+    height: 10px;
+    width: 10px;
+    margin: -2px 0 0 -10px;
+    border-radius: 100%;
+    background: #ffed00;
+    border: 2px solid #ffed00;
+}
+#fp-nav ul li a span, .fp-slidesNav ul li a span {
+    height: 10px;
+    width: 10px;
+}
+.iihf-logo {
+    right: 20px;
+    bottom: 20px;
+    width: 11%;
+    height: 20%;
+}
+
+.left-player {
+    width: 30%;
+    left: 23%;
+    bottom: 0;
+}
+
+.right-player {
+    width: 30%;
+    right: 23%;
+    bottom: 0;
+}
+.skates {
+    width: 34%;
+    height: 40%;
+}
+.section-intro1 {
+    padding-top: 10%;
+}
+.section-intro2 {
+    padding-top: 12%;
+}
+.hand {
+    height: 70%;
+    left: -5%;
+}
+.shaiba {
+    bottom: 0;
+}
+.dark-scroll {
+    width: 20px;
+    height: 11px;
+    bottom: 10px;
+    margin-left: -12px;
+    padding-top: 9px;
+}
+.dark-last-scroll {
+    width: 20px;
+    height: 11px;
+    bottom: 10px;
+    margin-left: -12px;
+    padding-top: 9px;
+}
+.dark-scroll-arrow {
+    width: 10px;
+    height: 5px;
+    background-size: contain;
+}
+.rotate-scroll-arrow {
+    width: 10px;
+    height: 5px;
+    background-size: contain;
+}
+.white-scroll {
+    width: 20px;
+    height: 11px;
+    bottom: 10px;
+    margin-left: -12px;
+    padding-top: 9px;
+}
+.white-scroll-arrow {
+    width: 10px;
+    height: 5px;
+    background-size: contain;
+}
+.mob-nav { 
+    padding-top: 10%;
+}
+
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+#fp-nav ul li, .fp-slidesNav ul li {
+    width: 10px;
+    height: 10px;
+}
+#fp-nav ul li a.active span, #fp-nav ul li:hover a.active span, .fp-slidesNav ul li a.active span, .fp-slidesNav ul li:hover a.active span {
+    height: 10px;
+    width: 10px;
+    margin: -2px 0 0 -10px;
+    border-radius: 100%;
+    background: #ffed00;
+    border: 2px solid #ffed00;
+}
+#fp-nav ul li a span, .fp-slidesNav ul li a span {
+    height: 10px;
+    width: 10px;
+}
+.right-player {
+    width: 64%;
+    background-position:  right 64%;
+    right: -8%;
+}
+.left-player {
+    width: 64%;
+    background-position:  left 65%;
+    left: -7%;
+}
+.dark-scroll {
+    width: 20px;
+    height: 11px;
+    bottom: 40px;
+    margin-left: -12px;
+    padding-top: 9px;
+}
+.dark-last-scroll {
+    width: 20px;
+    height: 11px;
+    bottom: 40px;
+    margin-left: -12px;
+    padding-top: 9px;
+}
+.dark-scroll-arrow {
+    width: 10px;
+    height: 5px;
+    background-size: contain;
+}
+.rotate-scroll-arrow {
+    width: 10px;
+    height: 5px;
+    background-size: contain;
+    display: block;
+    bottom: 40px;
+}
+.white-scroll {
+    width: 20px;
+    height: 11px;
+    bottom: 40px;
+    margin-left: -12px;
+    padding-top: 9px;
+}
+.white-scroll-arrow {
+    width: 10px;
+    height: 5px;
+    background-size: contain;
+}
+.iihf-logo {
+    width: 16%;
+    height: 11%;
+    right: 20px;
+    bottom: 20px;
+    display: block;
+}
+
+.gradient {
+    display: block;
+}
+
+.section-intro1 {
+    padding-top: 23%;
+}
+.section-intro2 {
+    padding-top: 24%;
+}
+.section-intro1 p {
+    line-height: 22px;
+    font-size: 22px;
+    width: 69%;
+    margin: 0 auto 20px;
+}
+.section-intro1 span {
+    font-size: 15px;
+}
+.section-intro2 p {
+    line-height: 22px;
+    font-size: 20px;
+    margin: 0 auto 20px;
+}
+.section-intro2 span {
+    font-size: 15px;
+    width: 80%;
+    margin: 0 auto;
+}
+.face {
+	width: 50px;
+    height: 50px;
+    margin-left: -25px;
+    top: 18%;
+    display: none;
+}
+.date-info {
+	font-size: 14px;
+	top: 32%;
+}
+.date-info ul {
+    margin: 0px;
+    padding: 10px;
+    list-style: none;
+}
+.hand {
+    left: 0;
+    height: 80%;
+}
+.phone {
+    width: 54%;
+    height: 43%;
+    right: -14%;
+    bottom: -4%;
+}
+.shaiba {
+    width: 61.5%;
+    height: 57%;
+    bottom: 35px;
+}
+.skates {
+	width: 109px;
+	height: 209px;
+	background: url(../img/mob-skates.png) no-repeat top right;
+	top: 0px;
+}
+.glove {
+	width: 200px;
+	height: 110px;
+}
+.wrapper {
+		width: 100%;
+		height: 100%;
+		background: url(../img/mob-light.png) no-repeat center center;
+		background-size: cover;
+		position: relative;
+		z-index: 99999;
+	}
+.light-slide-3 {
+	display: none;
+} 
+.mob-nav { 
+    padding-top: 50%;
+}
+
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

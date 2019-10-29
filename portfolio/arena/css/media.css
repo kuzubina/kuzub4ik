@@ -1,0 +1,427 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1280px) {
+	.main-nav-wrap {
+		display: none;
+	}
+	.lk {
+		display: none;
+	}
+	.toggle-menu {
+		display: block;
+	}
+}
+
+@media only screen and (max-width : 1024px) {
+	.tel-col {
+    	width: 200px;
+	}
+	.order-col-intro,
+	.order-telephone {
+		max-width: 220px;
+	}
+	.about-descr-wrap {
+    max-width: 768px;
+	}
+	.about-intro-wrap {
+    min-height: 1030px;
+	}
+	.player-wrap {
+	    float: left;
+	    margin-top: 150px;
+	    width: 100%;
+	}
+	.player {
+	    max-width: 532px;
+	    margin: 0 auto;
+	    position: relative;
+	}
+	.wrap-ins {
+	    padding: 0 20px;
+	}
+	.plan-item {
+	    width: 180px;
+	    margin-right: 20px;
+	}
+	.plan-logo {
+	    width: 180px;
+	    height: 180px;
+	}
+	.location-wrap {
+		margin-left: -48%;
+	}
+	.soc-bg {
+		float: none;
+		margin: 0 auto;
+	}
+	.soc-descr-wrap {
+	    margin-left: 0;
+	    margin-top: 10px;
+	    text-align: center;
+	    width: 100%;
+	}
+	.soc-footer {
+    padding: 23px 0 130px;
+	}
+	.for-children {
+		background: url(../img/children-small.jpg) no-repeat;
+		width: 100%;
+	    height: 200px;
+	    background-size: contain;
+	}
+	.for-company {
+		background: url(../img/company-small.jpg) no-repeat;
+		width: 100%;
+	    height: 200px;
+	    background-size: contain;
+	}
+	.for-family {
+		background: url(../img/family-small.jpg) no-repeat;
+		width: 100%;
+	    height: 200px;
+	    background-size: contain;
+	}
+	.item-menu {
+		margin-top: 50px;
+	}
+	.item-1 {
+		display: none;
+	}
+	.item-2 {
+		display: none;
+	}
+	.item-3 {
+		display: none;
+	}
+	.reset {
+		padding: 0 6px;
+	}
+	.menu-item-wrap:hover {
+		margin-top: 0;
+	}
+	.menu-item-wrap:hover .item-1 {
+	  opacity: 0;
+	  display: none;
+	}
+	.menu-item-wrap:hover .item-2 {
+	  opacity: 0;
+	  display: none;
+	}
+	.menu-item-wrap:hover .item-3 {
+	  opacity: 0;
+	  display: none;
+	}
+	.footer {
+		display: none;
+	}
+
+
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.slide-descr {
+	    float: left;
+	    width: 100%;
+	}
+	.slide-logo {
+    width: 100%;
+    float: left;
+}
+.slide-logo img {
+    width: 100%;
+    margin-left: 0;
+}
+.menu-item-wrap {
+    margin: 0 auto;
+}
+.item-menu {
+    margin-top: 40px;
+}
+
+.plav-bar {
+	display: none !important;
+}
+.soc-footer {
+    background: #250907;
+    padding: 23px 0 23px;
+    overflow: hidden;
+}
+.games-item {
+	margin: 0 auto;
+}
+.games-line .item {
+	margin: 0;
+	width: 100%;
+}
+
+
+
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.item-menu {
+		margin-top: 0;
+   		padding-top: 35px;
+}
+.bread-2-1 {
+    right: -33px;
+    top: -60px;
+}
+.location-wrap {
+	padding: 30px 15px;
+}
+.main-form {
+    width: 65%;
+    float: none;
+    position: relative;
+    margin: 0 auto;
+}
+.form-intro {
+    width: 65%;
+    margin: 0 auto 20px;
+    float: none;
+    overflow: hidden;
+}
+.soc-footer {
+    padding: 23px 0 23px;
+}
+
+.plan-item {
+    width: 100%;
+    margin-right: 0;
+}
+.plan-logo {
+    float: left;
+    margin-right: 30px;
+}
+.plan-descr {
+    float: left;
+}
+.plan-intro {
+	float: left;
+	margin-top: 40px;
+}
+.bg-item-7 {
+    display: none;
+}
+.for-children {
+	    height: 150px;
+	}
+	.for-company {
+	    height: 150px;
+	}
+	.for-family {
+	    height: 150px;
+	}
+
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 736px) {
+.plan-descr {
+    max-width: 60%;
+}
+.about-intro {
+	display: none;
+}
+.about-descr-wrap {
+	margin-left: 0;
+}
+.for-company,
+.for-family,
+.for-children {
+    height: 280px;
+}
+.about-descr .read-more {
+    margin: 30px auto 0;
+}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 568px) {
+
+.toggle-menu {
+	right: 30px;
+}
+.slide-intro {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 25px;
+}
+.read-more {
+    margin: 0 auto 45px;
+}
+.about-descr-wrap {
+	margin-left: 0;
+}
+.plan-logo {
+    float: none;
+    margin: 0 auto;
+}
+.plan-intro {
+	text-align: center;
+	width: 100%;
+}
+.plan-descr {
+	text-align: center;
+	max-width: 100%;
+	width: 100%;
+}
+.plan-item {
+	margin-bottom: 60px;
+}
+.soc-col {
+	width: 100%;
+	float: left;
+	margin-bottom: 20px;
+}
+.soc-descr-wrap {
+	margin-left: 15px;
+	width: auto;
+}
+.soc-bg {
+	float: left;
+}
+.soc-col:nth-child(2n) .soc-bg {
+  float: right;
+}
+.soc-col:nth-child(2n) .soc-descr-wrap {
+  float: right;
+  margin-right: 15px;
+}
+.location-wrap {
+	display: none;
+}
+.form-intro {
+	width: 100%;
+}
+.form-logo {
+	display: none;
+}
+.main-form {
+	width: 100%;
+}
+
+.main-form input {
+	padding-right: 30px;
+}
+.send-mail {
+	position: relative;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.player iframe {
+    width: 100%;
+}
+.player-wrap {
+    margin-top: 80px;
+}
+.about-intro-wrap {
+    min-height: 960px;
+}
+.bg-item-9 {
+    display: none;
+}
+.bg-item-7 {
+    display: none;
+}
+.bg-item-5 {
+    display: none;
+}
+.bg-item-8 {
+    display: none;
+}
+.bg-item-6 {
+    display: none;
+}
+#google-container {
+    height: 350px;
+}
+.footer-soc-wrap {
+    display: none;
+}
+
+
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.for-children {
+		height: 250px;
+	}
+	.for-family {
+		height: 250px;
+	}
+	.for-company {
+		height: 250px;
+	}
+	.pl0 {
+		padding: 0;
+	}
+	.pr0 {
+		padding: 0;
+	}
+	.about-intro-wrap {
+    	overflow: hidden;
+	}
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	.for-children {
+		height: 200px;
+	}
+	.for-family {
+		height: 200px;
+	}
+	.for-company {
+		height: 200px;
+	}
+	.pl0 {
+		padding: 0;
+	}
+	.pr0 {
+		padding: 0;
+	}
+	.about-intro-wrap {
+    	overflow: hidden;
+	}
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

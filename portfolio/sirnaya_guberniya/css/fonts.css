@@ -1,0 +1,39 @@
+@font-face {
+	font-family: 'Conv_Oranienbaum';
+	src: url('../fonts/Oranienbaum.eot');
+	src: local('☺'), url('../fonts/Oranienbaum.woff') format('woff'), url('../fonts/Oranienbaum.ttf') format('truetype'), url('../fonts/Oranienbaum.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_ArnoPro-Display_0';
+	src: url('../fonts/ArnoPro-Display_0.eot');
+	src: local('☺'), url('../fonts/ArnoPro-Display_0.woff') format('woff'), url('../fonts/ArnoPro-Display_0.ttf') format('truetype'), url('../fonts/ArnoPro-Display_0.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_ArnoPro-Smbd_0';
+	src: url('fonts/ArnoPro-Smbd_0.eot');
+	src: local('☺'), url(../'fonts/ArnoPro-Smbd_0.woff') format('woff'), url('../fonts/ArnoPro-Smbd_0.ttf') format('truetype'), url('../fonts/ArnoPro-Smbd_0.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_ArnoPro-Italic_0';
+	src: url('../fonts/ArnoPro-Italic_0.eot');
+	src: local('☺'), url('../fonts/ArnoPro-Italic_0.woff') format('woff'), url('../fonts/ArnoPro-Italic_0.ttf') format('truetype'), url('../fonts/ArnoPro-Italic_0.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_Magnolia Script';
+	src: url('../fonts/Magnolia Script.eot');
+	src: local('☺'), url('../fonts/Magnolia Script.woff') format('woff'), url('../fonts/Magnolia Script.ttf') format('truetype'), url('../fonts/Magnolia Script.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}

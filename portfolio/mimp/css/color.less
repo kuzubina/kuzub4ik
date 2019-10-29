@@ -1,0 +1,369 @@
+@section-bg: #fff8ef;       /// Цвет шапки и некоторых блоков
+@txt-color: #4e2223;        /// Цвет ссылок 
+@link-hover: #c5241b;       /// Цвет ссылок при наведении
+@btn-bg: #c5241b;  	        /// Цвет кнопок
+@btn-hover-bg: #f55549;     /// Цвет кнопок при наведении
+@separator: #e3d9c6;        /// Цвет разделителей и тонких полосок (пример разделитель в основном меню)
+@label-bg: #ffd500;         /// Цвет лейблов (цены, новинок)
+@label-border: #dd081e;     /// Цвет бордера лейбла
+@filter-border: #b48c82;    /// Цвет бордера навигация фильтров товаров
+@footer-nav-bg: #44130f;    /// Цвет меню подвала
+
+
+body {
+    color: @txt-color;
+}
+
+a {
+	color: @txt-color;
+	&:hover {
+		color: @link-hover;
+	}
+}
+
+.header {
+	background: @section-bg;
+}
+
+.header-box {
+	.header-nav {
+		li {
+			&:before {
+				background: @separator;
+			}
+		}
+		.active {
+			a {
+				color: @link-hover;
+			}
+		}
+	}
+}
+
+.sw-topper,
+.sw-bottom, 
+.sw-footer {
+	background: @txt-color;
+}
+
+
+.main-banner {
+	background: url(../img/temp/banner.jpg) no-repeat 50% 100%;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.label-price {
+	background: @label-bg;
+	border: 2px solid @label-border;
+	.sale-row {
+		border-bottom: 2px solid @label-border;
+		.old-price {
+			background: @label-border;
+		}
+		.discount {
+			color: @label-border;
+		}
+	}
+}
+
+.product-select {
+	background: @section-bg url(../img/temp/gost.svg) no-repeat 50% 50px;
+}
+
+.s-bg {
+	background: @section-bg
+}
+
+
+.select-item-box {
+	.select-item {
+		.select-item-info {
+			.s-arrow {
+				&:before {
+					background: @txt-color;
+				}
+				&:after {
+					background: @txt-color;
+				}
+				&:hover {
+					color: @link-hover;
+					&:before {
+						background: @link-hover;
+					}
+					&:after {
+						background: @link-hover;
+					}
+				}
+			}
+			.arrow {
+				fill: @txt-color;
+			}
+			&:hover {
+				.arrow {
+					fill: @link-hover;
+				}
+			}
+		}
+	}
+}
+
+
+.section {
+	.s-title {
+		span {
+			&:before {
+				background: @link-hover;
+			}
+			&:after {
+				background: @link-hover;
+			}
+		}
+	}
+}
+
+.product-filter {
+	border-top: 1px solid @separator;
+	border-bottom: 1px solid @separator;
+	li {
+		span {
+			border: 1px solid @filter-border;
+			&:hover {
+				border: 1px solid @link-hover;
+				color: @link-hover;
+			}
+		}
+	}
+	.active {
+		span {
+			border: 1px solid @link-hover;
+			background: @link-hover;
+			color: #fff;
+			&:hover {
+				color: #fff;
+			}
+		}
+
+	}
+}
+
+.product-box {
+	border-bottom: 1px solid @separator;
+}
+
+.product-label {
+	background: @label-bg;
+	color: @label-border;
+}
+
+
+.like-box {
+	.like-value {
+		color: @filter-border;
+	}
+	.like-btn {
+		border: 1px solid @filter-border;
+		svg {
+			fill: @filter-border;
+		}
+	}
+	&:hover {
+		.like-value {
+			color: #e2001a;
+		}
+		.like-btn {
+			border: 1px solid #e2001a;
+			svg {
+				fill: #e2001a;
+			}
+		}
+		.active {
+			svg {
+				fill: #fff;
+			}
+		}
+	}
+	.active {
+		border: 1px solid #e2001a;
+		background: #e2001a;
+		svg {
+			fill: #fff;
+		}
+	}
+}
+
+.main-btn {
+	background: @btn-bg;
+	&:hover {
+		background:@btn-hover-bg;
+		color: #fff;
+	}
+}
+
+
+.read-more-box {
+	.arrow {
+		fill: @txt-color;
+	}
+	&:hover {
+		.read-more {
+			color: @link-hover;
+		}
+		.arrow {
+			fill: @link-hover;
+		}
+	}
+}
+
+
+.footer {
+	.footer-nav-box {
+		background: @footer-nav-bg;
+		.footer-nav {
+			li {
+				&:before {
+					background: rgba(255, 255, 255, 0.3);
+				}
+				a {
+					&:hover {
+						color: @link-hover;
+					}
+				}
+			}
+		}
+	}
+}
+
+.product-card-box {
+	.close-card {
+		background: @link-hover;
+		&:hover {
+			background: @btn-hover-bg;
+		}
+	}
+}
+
+.total-like {
+	svg {
+		fill: #e2001a;
+	}
+}
+
+.product-card-body {
+	.nav-tabs {
+		border-bottom: 1px solid @separator;
+		li {
+			a {
+				border: 1px solid @separator;
+				color: @txt-color;
+				&:hover {
+					color: @txt-color;
+				}
+			}
+		}
+		.active {
+			a {
+				background: @link-hover;
+				border: 1px solid @link-hover;
+				color: #fff;
+				&:hover {
+					color: #fff;
+				}
+			}
+		}
+	}
+}
+
+.action-list-box {
+	.action-list {
+		li {
+			a {
+				color: @link-hover;
+				&:hover {
+					text-decoration: underline;
+				}
+			}
+		}
+	}
+}
+
+.light-main-btn {
+	border: 1px solid @filter-border;
+	svg {
+		fill: @filter-border;
+	}
+	&:hover {
+		color: @link-hover;
+		border: 1px solid @link-hover;
+		svg {
+			fill: @link-hover;
+		}
+	}
+}
+
+.video-list-item {
+border-bottom: 1px solid @separator;
+ &:last-child {
+ 	border-bottom: none;
+ }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+.header-box {
+	.navbar-example {
+		.header-nav {
+			li {
+				border-bottom: 1px solid @separator;
+				&:last-child {
+					border-bottom: none;
+				}
+				.prod-list {
+					border-top: 1px solid @separator;
+					li {
+						a {
+							color: @txt-color;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+}
+
+
+
+@media only screen and (max-width : 480px) {
+.action-list-box {
+	padding-top: 20px;
+	position: relative;
+	&:before {
+		content: "";
+		height: 1px;
+		background: @separator;
+		position: absolute;
+		right: -20px;
+		left: -20px;
+		top: 0;
+	}	
+}
+
+}
